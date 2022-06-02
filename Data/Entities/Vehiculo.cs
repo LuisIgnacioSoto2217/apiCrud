@@ -1,4 +1,4 @@
-namespace Dot6.API.Crud.Data.Entities;
+ 
 
 public class Vehiculo
 {

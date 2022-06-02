@@ -2,9 +2,7 @@ using Dot6.API.Crud.Data;
 using Dot6.API.Crud.Data.Entities;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-
-namespace Dot6.API.Crud.Controllers;
-
+  
 
 [ApiController]
 [Route("[controller]")]

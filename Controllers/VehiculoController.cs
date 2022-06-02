@@ -4,8 +4,6 @@ using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
-namespace Dot6.API.Crud.Controllers;
-
 [ApiController]
 [Route("[controller]")]
 public class VehiculoController : ControllerBase
@@ -15,7 +13,7 @@ public class VehiculoController : ControllerBase
     {
         _TestDbContext = TestNectiaDbContext;
     }
-  
+
     [HttpGet]
     public async Task<IActionResult> GetAsync()
     {
