@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Dot6.API.Crud.Controllers;
 
+
 [ApiController]
 [Route("[controller]")]
 public class UsuarioController : ControllerBase
