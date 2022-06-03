@@ -1,1 +1,34 @@
-# apiCrud
+ USE [TestNectia]
+GO
+/****** Object:  Table [dbo].[Usuario]    Script Date: 03/06/2022 9:45:47 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Usuario](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Login] [varchar](50) NULL,
+	[Clave] [varchar](50) NULL,
+ CONSTRAINT [PK_Usuario] PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Vehiculo]    Script Date: 03/06/2022 9:45:48 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Vehiculo](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Marca] [varchar](50) NULL,
+	[Modelo] [varchar](50) NULL,
+	[Procedencia] [varchar](50) NULL,
+	[Patente] [varchar](50) NULL,
+ CONSTRAINT [PK_Vehiculo] PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
