@@ -1,4 +1,8 @@
- USE [TestNectia]
+
+
+SCRIP BASE DATOS con 2 tablas
+
+USE [TestNectia]
 GO
 /****** Object:  Table [dbo].[Usuario]    Script Date: 03/06/2022 9:45:47 ******/
 SET ANSI_NULLS ON
